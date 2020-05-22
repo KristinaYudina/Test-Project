@@ -1,0 +1,110 @@
+
+.content-form {
+    padding: 30px;
+    border: 1px solid #000;
+    margin: 0 auto;
+    max-width: 500px;
+    height: auto;
+}
+
+.red {
+    color: red;
+}
+
+.content-table {
+    margin: 80px auto 0;
+    width: 900px;
+}
+
+.title {
+    margin: 0px 0px 30px;
+    font: bold 20px/21px arial, tahoma, verdana;
+    color: #353535;
+}
+
+/* --block form --*/
+
+form, fieldset {
+    padding: 0px;
+    margin: 0px;
+    position: relative;
+    border: 0px;
+}
+
+form .row {
+    display: inline-flex;
+    width: 100%;
+}
+
+form .side-left {
+    font: normal 17px/18px arial, tahoma, verdana;
+    width: 30%;
+    min-width: 100px;
+}
+
+form .side-right {
+    width: 70%;
+}
+
+form .side-right input {
+    height: 30px;
+    padding: 0px 10px;
+    margin: 0px 0px 15px;
+    color: #353535;
+    box-sizing: border-box;
+    width: 100%;
+}
+
+form .btn {
+    background: linear-gradient(#b4bd01, #b4bd01);
+    font: bold 16px/50px arial, tahoma, verdana;
+    border-bottom-color: #b4bd01;
+    cursor: pointer;
+    height: 50px;
+}
+
+form .send {
+    text-align: right;
+}
+
+form label.error {
+    top: -17px;
+    position: relative;
+    color: red;
+    font: normal 13px/14px arial, tahoma, verdana;
+}
+
+form input.error {
+    border: 1px solid red;
+}
+
+.form-error {
+    font: normal 17px/18px arial, tahoma, verdana;
+    color: red;
+}
+
+.result-info {
+    font: bold 17px/18px arial, tahoma, verdana;
+    color: #b4bd01;
+    top: -15px;
+    position: relative;
+}
+
+/* --block table --*/
+
+.markers {
+    border-collapse: collapse;
+    font: normal 17px/18px arial, tahoma, verdana;
+    width: 100%;
+}
+
+.markers tr:first-child {
+    background: linear-gradient(#b4bd01, #b4bd01);
+    font-weight: bold;
+}
+
+.markers tr td {
+    padding: 10px;
+}
+
+
